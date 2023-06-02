@@ -12,15 +12,14 @@ const Footer = () => {
             <div className=" flex items-center gap-8 mb-3 ">
               {/* logo */}
               <div className=" flex gap-2 items-center text-2xl text-white font-bold">
-                <img src={require("./imgs/Logo.png")} alt="" />
-                <span>Elias</span>
+                <h1>AI<span className="text-[#C778DD]">x</span>TECH</h1>
               </div>
               {/* email */}
-              <span className="text-[#ABB2BF]">elias@elias.ml</span>
+              <span className="text-[#ABB2BF]">osamakhannnnn@gmail.com</span>
             </div>
             {/* disc */}
             <div className="text-[#ffffff]">
-              <p>Web designer and front-end developer based in Ukraine</p>
+              <p>Team of Artificial Intelligence Developers and Designers.</p>
             </div>
           </div>
           {/* right */}
@@ -28,14 +27,14 @@ const Footer = () => {
             {/* title */}
             <h2 className=" text-white text-2xl font-medium mb-3">Media</h2>
             {/* media */}
-            <div className="flex items-center gap-2">
-              <a href="#">
-                <img src={require("./imgs/Discord.png")} alt="" />
+            <div className="flex items-center gap-4">
+              <a href="https://www.linkedin.com/in/aibytech-a217691a9/" target="_blank">
+                <img src={require("./imgs/linkedin.png")} alt="" />
               </a>
-              <a href="#">
-                <img src={require("./imgs/Figma.png")} alt="" />
+              <a href="https://twitter.com/AIBYTECH" target="_blank">
+                <img src={require("./imgs/twitter.png")} alt="" />
               </a>
-              <a href="#">
+              <a href="https://github.com/AIBYTECH" target="_blank">
                 <img src={require("./imgs/Github.png")} alt="" />
               </a>
             </div>
@@ -43,7 +42,7 @@ const Footer = () => {
         </div>
         {/* bottom */}
         <div className="text-center text-[#ABB2BF] pb-8 mt-12">
-          © Copyright 2022. Made by Elias
+          © Copyright 2023. Made by Isharab
         </div>
       </div>
     </>

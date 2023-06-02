@@ -1,4 +1,5 @@
 import "./about.css";
+import Button from "./Button";
 
 const About = () => {
   return (
@@ -6,15 +7,12 @@ const About = () => {
       <div className="px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap">
         <div className=" w-10/12 sm:w-8/12 mx-auto">
           <h1 className="font-semibold text-[32px] text-white mb-3">
-            Elias is a <span className="text-[#C778DD]">web designer</span> and{" "}
-            <span className="text-[#C778DD]">front-end developer</span>
+            We <span className="text-[#C778DD]">design</span> your feelings, <span className="text-[#C778DD]">code</span> emotions
           </h1>
           <p className="text-[#ABB2BF] my-6">
-            He crafts responsive websites where technologies meet creativity
+            We talented people with latest technologies can help you to fulfil your dream.  
           </p>
-          <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
-            Contact me!!
-          </button>
+          <Button url="https://www.linkedin.com/in/aibytech-a217691a9/" />
         </div>
         <div className="mx-auto">
           <div className="">
@@ -23,7 +21,7 @@ const About = () => {
           <div className="border flex items-center gap-2 border-[#ABB2BF] p-2 text-[#ABB2BF]">
             <div className="w-4 h-4 bg-[#C778DD]"></div>
             <div className="">
-              Currently working on <span className="text-white">Portfolio</span>
+              Currently working on <span className="text-white">ChatBot</span>
             </div>
           </div>
         </div>

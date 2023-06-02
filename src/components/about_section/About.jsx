@@ -10,26 +10,31 @@ const AboutSec = () => {
             <div className=" mb-12">
               <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
                 <div className="">
-                  <span className="text-[#C778DD]">#</span>about-me
+                  <span className="text-[#C778DD]">#</span>about-us
                 </div>
                 <div className="line w-1/3 h-px bg-[#C778DD]"></div>
               </div>
             </div>
             {/* disc */}
             <p className="text-[#ABB2BF] ">
-              Hello, i’m Elias!
+              We as a team
               <br />
               <br />
-              I’m a self-taught front-end developer based in Kyiv, Ukraine. I
-              can develop responsive websites from scratch and raise them into
-              modern user-friendly web experiences.
+              As a seasoned expert in machine learning and artificial intelligence (AI),
+              We specialize in delivering cutting-edge solutions to complex business challenges. 
               <br />
+              Leveraging our extensive technical expertise and deep industry knowledge, 
+              We work closely with clients to design, develop, 
+              and deploy custom machine learning and AI applications that drive operational efficiency, 
+              reduce costs, and enhance business performance. 
               <br />
-              Transforming my creativity and knowledge into a websites has been
-              my passion for over a year. I have been helping various clients to
-              establish their presence online. I always strive to learn about
-              the newest technologies and frameworks.
-            </p>
+              Whether you need help with natural language processing, computer vision, 
+              predictive analytics, or any other aspect of ML/AI, 
+              We have the skills and experience necessary to deliver results that exceed your expectations. 
+              So if you're looking for a trusted professional who can help you unlock 
+              the full potential of machine learning and AI, 
+              let's connect and explore how we can work together.
+              </p>
             {/* button */}
             <div className="mt-7">
               <a
